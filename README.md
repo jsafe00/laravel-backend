@@ -42,6 +42,6 @@ Simple CRUD using Laravel Resource API with Laravel 8.x
     Create - POST - {localhost}/api/posts?title={newTitle}&description={newDescription}
     Read - GET (all)- {localhost}api/posts
     GET (byID) - {localhost}/api/posts/{id}
-    Update - PATCH - {localhost}/api/posts/{id}?title={updatedTitle}&description={updatedTitle}
+    Update - PUT - {localhost}/api/posts/{id}?title={updatedTitle}&description={updatedTitle}
     Delete - DELETE - {localhost}/api/posts/{id}
 ```
