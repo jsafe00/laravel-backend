@@ -45,3 +45,9 @@ Simple CRUD using Laravel Resource API with Laravel 8.x
     Update - PUT - {localhost}/api/posts/{id}?title={updatedTitle}&description={updatedTitle}
     Delete - DELETE - {localhost}/api/posts/{id}
 ```
+## To test
+
+```
+   $ ./vendor/bin/phpunit --testdox
+```
+
